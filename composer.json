@@ -1,0 +1,19 @@
+{
+    "name": "sezapata/composer_practica",
+    "description": "Practica composer",
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "John Smith",
+            "email": "john@example.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+        "psr-0": {
+            "HelloWorld": "src/" 
+        }
+    }
+}
